@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SecondViewController.swift
 //  MyVocabulary
 //
 //  Created by Nikita Misko on 03.02.17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class DictinaryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

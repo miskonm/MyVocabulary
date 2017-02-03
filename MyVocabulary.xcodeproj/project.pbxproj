@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		3929CD411E4493F400A2C873 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CD401E4493F400A2C873 /* AppDelegate.swift */; };
-		3929CD431E4493F400A2C873 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CD421E4493F400A2C873 /* FirstViewController.swift */; };
-		3929CD451E4493F400A2C873 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CD441E4493F400A2C873 /* SecondViewController.swift */; };
+		3929CD431E4493F400A2C873 /* TranslationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CD421E4493F400A2C873 /* TranslationViewController.swift */; };
+		3929CD451E4493F400A2C873 /* DictinaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CD441E4493F400A2C873 /* DictinaryViewController.swift */; };
 		3929CD481E4493F400A2C873 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3929CD461E4493F400A2C873 /* Main.storyboard */; };
 		3929CD4A1E4493F400A2C873 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3929CD491E4493F400A2C873 /* Assets.xcassets */; };
 		3929CD4D1E4493F400A2C873 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3929CD4B1E4493F400A2C873 /* LaunchScreen.storyboard */; };
+		3929CD581E44A3F200A2C873 /* TranslationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3929CD571E44A3F200A2C873 /* TranslationCell.xib */; };
+		3929CD5A1E44BB3400A2C873 /* Translation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3929CD591E44BB3400A2C873 /* Translation.swift */; };
+		80D4F60526D5322D56A127AF /* Pods_MyVocabulary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE6C6348AA5D7FF2EFE88B71 /* Pods_MyVocabulary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3929CD3D1E4493F400A2C873 /* MyVocabulary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyVocabulary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3929CD401E4493F400A2C873 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3929CD421E4493F400A2C873 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3929CD441E4493F400A2C873 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3929CD421E4493F400A2C873 /* TranslationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationViewController.swift; sourceTree = "<group>"; };
+		3929CD441E4493F400A2C873 /* DictinaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictinaryViewController.swift; sourceTree = "<group>"; };
 		3929CD471E4493F400A2C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3929CD491E4493F400A2C873 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3929CD4C1E4493F400A2C873 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3929CD4E1E4493F400A2C873 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3929CD571E44A3F200A2C873 /* TranslationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TranslationCell.xib; sourceTree = "<group>"; };
+		3929CD591E44BB3400A2C873 /* Translation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translation.swift; sourceTree = "<group>"; };
+		9BEA0E2A040BB76A24600066 /* Pods-MyVocabulary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabulary.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary.debug.xcconfig"; sourceTree = "<group>"; };
+		CD675FCA382A571211501ED9 /* Pods-MyVocabulary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyVocabulary.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary.release.xcconfig"; sourceTree = "<group>"; };
+		DE6C6348AA5D7FF2EFE88B71 /* Pods_MyVocabulary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyVocabulary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80D4F60526D5322D56A127AF /* Pods_MyVocabulary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25FA3609B2CC74DD37E77D45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C6348AA5D7FF2EFE88B71 /* Pods_MyVocabulary.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3929CD341E4493F400A2C873 = {
 			isa = PBXGroup;
 			children = (
 				3929CD3F1E4493F400A2C873 /* MyVocabulary */,
 				3929CD3E1E4493F400A2C873 /* Products */,
+				398589DB721EFF1867582CFB /* Pods */,
+				25FA3609B2CC74DD37E77D45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +75,50 @@
 		3929CD3F1E4493F400A2C873 /* MyVocabulary */ = {
 			isa = PBXGroup;
 			children = (
-				3929CD401E4493F400A2C873 /* AppDelegate.swift */,
-				3929CD421E4493F400A2C873 /* FirstViewController.swift */,
-				3929CD441E4493F400A2C873 /* SecondViewController.swift */,
+				3929CD561E44940E00A2C873 /* Model */,
+				3929CD551E44940900A2C873 /* View */,
+				3929CD541E44940200A2C873 /* Controller */,
 				3929CD461E4493F400A2C873 /* Main.storyboard */,
 				3929CD491E4493F400A2C873 /* Assets.xcassets */,
 				3929CD4B1E4493F400A2C873 /* LaunchScreen.storyboard */,
 				3929CD4E1E4493F400A2C873 /* Info.plist */,
 			);
 			path = MyVocabulary;
+			sourceTree = "<group>";
+		};
+		3929CD541E44940200A2C873 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3929CD421E4493F400A2C873 /* TranslationViewController.swift */,
+				3929CD441E4493F400A2C873 /* DictinaryViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3929CD551E44940900A2C873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3929CD571E44A3F200A2C873 /* TranslationCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3929CD561E44940E00A2C873 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3929CD401E4493F400A2C873 /* AppDelegate.swift */,
+				3929CD591E44BB3400A2C873 /* Translation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		398589DB721EFF1867582CFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BEA0E2A040BB76A24600066 /* Pods-MyVocabulary.debug.xcconfig */,
+				CD675FCA382A571211501ED9 /* Pods-MyVocabulary.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3929CD511E4493F400A2C873 /* Build configuration list for PBXNativeTarget "MyVocabulary" */;
 			buildPhases = (
+				9D89BD37E605B3AB7F992A8E /* [CP] Check Pods Manifest.lock */,
 				3929CD391E4493F400A2C873 /* Sources */,
 				3929CD3A1E4493F400A2C873 /* Frameworks */,
 				3929CD3B1E4493F400A2C873 /* Resources */,
+				A1B7F83CC64A18252C7BDC8E /* [CP] Embed Pods Frameworks */,
+				693F70B86565FFA1913C7A2E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,19 +187,69 @@
 				3929CD4D1E4493F400A2C873 /* LaunchScreen.storyboard in Resources */,
 				3929CD4A1E4493F400A2C873 /* Assets.xcassets in Resources */,
 				3929CD481E4493F400A2C873 /* Main.storyboard in Resources */,
+				3929CD581E44A3F200A2C873 /* TranslationCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		693F70B86565FFA1913C7A2E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D89BD37E605B3AB7F992A8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A1B7F83CC64A18252C7BDC8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyVocabulary/Pods-MyVocabulary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3929CD391E4493F400A2C873 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3929CD451E4493F400A2C873 /* SecondViewController.swift in Sources */,
+				3929CD451E4493F400A2C873 /* DictinaryViewController.swift in Sources */,
 				3929CD411E4493F400A2C873 /* AppDelegate.swift in Sources */,
-				3929CD431E4493F400A2C873 /* FirstViewController.swift in Sources */,
+				3929CD431E4493F400A2C873 /* TranslationViewController.swift in Sources */,
+				3929CD5A1E44BB3400A2C873 /* Translation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +315,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -251,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -261,7 +368,9 @@
 		};
 		3929CD521E4493F400A2C873 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BEA0E2A040BB76A24600066 /* Pods-MyVocabulary.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9STW2W7Q28;
 				INFOPLIST_FILE = MyVocabulary/Info.plist;
@@ -274,7 +383,9 @@
 		};
 		3929CD531E4493F400A2C873 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD675FCA382A571211501ED9 /* Pods-MyVocabulary.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9STW2W7Q28;
 				INFOPLIST_FILE = MyVocabulary/Info.plist;
@@ -304,6 +415,7 @@
 				3929CD531E4493F400A2C873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
